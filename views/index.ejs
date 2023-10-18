@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html style="background-color: orange;" >
+
+<head>
+  <title>Lisper</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gluten:wght@400;500&family=Indie+Flower&family=Jolly+Lodger&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+</head>
+
+
+<body style="font-family: 'Jolly Lodger';">
+    <h1><a href="/">Add a Smile to your Coffee</a></h1>
+<div class="main_div">
+        <img class="main-img"src="images/img.jpeg">
+        <h2 class="joke">
+            <% if(typeof content !== 'undefined') {%>
+            <% if(content.joke){ %>
+                <p>
+                    <%= content.joke %>
+                </p>
+                <% }else{ %>
+                    <p>
+                        <%= content.setup %>
+                    </p>
+                    <p>
+                        <%= content.delivery %>
+                    </p>
+                    <% } %>
+            <% }else{ %>
+                <p>Opps..</p>
+                <p class="error">
+                    <%= error %>
+                </p>
+            <% } %></h2>
+    </div>
+
+
+</html>

@@ -1,0 +1,55 @@
+
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 70px;
+    color:black;
+    text-decoration: none;
+
+}
+
+
+h2{
+    
+    color: black;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+    font-family: 'Jolly Lodger'
+}
+
+h2:hover{
+    color: red;
+    transition: 2s;
+}
+
+.main-img{
+    height: 350px;
+    width: 350px;
+}
+
+.main_div{
+    background-color: white;
+    display: inline-flex;
+    width: 100%;
+}
+
+img:hover{
+    height: 450px;
+    width: 450px;
+    color: purple;
+  transition: color 1s;
+  
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+  
+}
